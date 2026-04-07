@@ -36,4 +36,4 @@ The HW3 package defines a WSS design centered around:
 - Inheritance/polymorphism across terrain, item, trader, vision, and brain hierarchies
 
 ## Notes
-The writeup is formatted as a text-first design package so it can be directly used for homework submission and/or converted into formal UML diagrams.
+The write-up is a text-first design package so it can be used in class, or to turn back into UML design (based upon a set of).
