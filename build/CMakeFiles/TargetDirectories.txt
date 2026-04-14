@@ -1,3 +1,0 @@
-/workspaces/CS3560/build/CMakeFiles/wss.dir
-/workspaces/CS3560/build/CMakeFiles/edit_cache.dir
-/workspaces/CS3560/build/CMakeFiles/rebuild_cache.dir

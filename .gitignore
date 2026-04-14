@@ -43,3 +43,6 @@
 # Local file for notes
 diagrams
 diagrams2
+
+# CMake build output
+build/

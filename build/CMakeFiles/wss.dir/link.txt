@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/wss.dir/src/Brain.cpp.o CMakeFiles/wss.dir/src/Item.cpp.o CMakeFiles/wss.dir/src/Trader.cpp.o CMakeFiles/wss.dir/src/Vision.cpp.o CMakeFiles/wss.dir/src/main.cpp.o -o wss 
