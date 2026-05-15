@@ -58,4 +58,14 @@ public:
     ForestTerrain() : Terrain("Forest", {2, 1, 2}) {}
 };
 
+class TundraTerrain final : public Terrain {
+public:
+    TundraTerrain() : Terrain("Tundra", {2, 2, 1}) {}
+};
+
+class CanyonTerrain final : public Terrain {
+public:
+    CanyonTerrain() : Terrain("Canyon", {3, 1, 2}) {}
+};
+
 } // namespace wss

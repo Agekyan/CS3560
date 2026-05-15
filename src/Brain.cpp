@@ -121,4 +121,35 @@ void CautiousBrain::makeMove(Player& player, const Map& map) const {
     }
 }
 
+void OpportunistBrain::makeMove(Player& player, const Map& map) const {
+    if (!player.vision()) {
+        return;
+    }
+
+    // kinda greedy but not dumb: if we're low, grab food/water first.
+    std::vector<Path> options;
+    if (player.currentGold() >= 2) {
+        options.push_back(player.vision()->closestTrader(map, player.position()));
+    }
+    if (player.currentWater() <= 3) {
+        options.push_back(player.vision()->closestWater(map, player.position()));
+    }
+    if (player.currentFood() <= 3) {
+        options.push_back(player.vision()->closestFood(map, player.position()));
+    }
+    options.push_back(player.vision()->closestGold(map, player.position()));
+    options.push_back(player.vision()->easiestPath(map, player.position()));
+
+    for (const auto& path : options) {
+        if (tryMove(player, map, path)) {
+            return;
+        }
+    }
+
+    const Cell& current = map.at(player.position());
+    if (current.terrain()) {
+        player.restInTerrain(current.terrain()->enterCost());
+    }
+}
+
 } // namespace wss

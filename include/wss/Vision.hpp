@@ -63,4 +63,38 @@ public:
     Path secondClosestTrader(const Map& map, const Position& origin) const override;
 };
 
+class ScoutVision final : public Vision {
+public:
+    std::string name() const override {
+        return "Scout Vision";
+    }
+
+    Path closestFood(const Map& map, const Position& origin) const override;
+    Path closestWater(const Map& map, const Position& origin) const override;
+    Path closestGold(const Map& map, const Position& origin) const override;
+    Path closestTrader(const Map& map, const Position& origin) const override;
+    Path easiestPath(const Map& map, const Position& origin) const override;
+    Path secondClosestFood(const Map& map, const Position& origin) const override;
+    Path secondClosestWater(const Map& map, const Position& origin) const override;
+    Path secondClosestGold(const Map& map, const Position& origin) const override;
+    Path secondClosestTrader(const Map& map, const Position& origin) const override;
+};
+
+class FocusedVision final : public Vision {
+public:
+    std::string name() const override {
+        return "Focused Vision";
+    }
+
+    Path closestFood(const Map& map, const Position& origin) const override;
+    Path closestWater(const Map& map, const Position& origin) const override;
+    Path closestGold(const Map& map, const Position& origin) const override;
+    Path closestTrader(const Map& map, const Position& origin) const override;
+    Path easiestPath(const Map& map, const Position& origin) const override;
+    Path secondClosestFood(const Map& map, const Position& origin) const override;
+    Path secondClosestWater(const Map& map, const Position& origin) const override;
+    Path secondClosestGold(const Map& map, const Position& origin) const override;
+    Path secondClosestTrader(const Map& map, const Position& origin) const override;
+};
+
 } // namespace wss

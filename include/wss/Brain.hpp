@@ -36,4 +36,13 @@ public:
     void makeMove(Player& player, const Map& map) const override;
 };
 
+class OpportunistBrain final : public Brain {
+public:
+    std::string name() const override {
+        return "Opportunist Brain";
+    }
+
+    void makeMove(Player& player, const Map& map) const override;
+};
+
 } // namespace wss

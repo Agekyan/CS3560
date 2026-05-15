@@ -179,6 +179,35 @@ std::vector<std::pair<Direction, Position>> wideOffsets() {
     };
 }
 
+std::vector<std::pair<Direction, Position>> scoutOffsets() {
+    return {
+        {Direction::North, {-1, 0}},
+        {Direction::South, {1, 0}},
+        {Direction::East, {0, 1}},
+        {Direction::West, {0, -1}},
+        {Direction::NorthEast, {-1, 1}},
+        {Direction::NorthWest, {-1, -1}},
+        {Direction::SouthEast, {1, 1}},
+        {Direction::SouthWest, {1, -1}},
+        {Direction::North, {-2, 0}},
+        {Direction::South, {2, 0}},
+        {Direction::East, {0, 2}},
+        {Direction::West, {0, -2}},
+    };
+}
+
+std::vector<std::pair<Direction, Position>> focusedOffsets() {
+    // tunnel vision: forward and diagonals, a couple steps out
+    return {
+        {Direction::East, {0, 1}},
+        {Direction::NorthEast, {-1, 1}},
+        {Direction::SouthEast, {1, 1}},
+        {Direction::East, {0, 2}},
+        {Direction::NorthEast, {-2, 2}},
+        {Direction::SouthEast, {2, 2}},
+    };
+}
+
 } // namespace
 
 Path CautiousVision::closestFood(const Map& map, const Position& origin) const {
@@ -251,6 +280,78 @@ Path WideVision::secondClosestGold(const Map& map, const Position& origin) const
 
 Path WideVision::secondClosestTrader(const Map& map, const Position& origin) const {
     return chooseClosest(map, origin, wideOffsets(), hasTrader, 1);
+}
+
+Path ScoutVision::closestFood(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, scoutOffsets(), hasFood, 0);
+}
+
+Path ScoutVision::closestWater(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, scoutOffsets(), hasWater, 0);
+}
+
+Path ScoutVision::closestGold(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, scoutOffsets(), hasGold, 0);
+}
+
+Path ScoutVision::closestTrader(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, scoutOffsets(), hasTrader, 0);
+}
+
+Path ScoutVision::easiestPath(const Map& map, const Position& origin) const {
+    return chooseEasiest(map, origin, scoutOffsets());
+}
+
+Path ScoutVision::secondClosestFood(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, scoutOffsets(), hasFood, 1);
+}
+
+Path ScoutVision::secondClosestWater(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, scoutOffsets(), hasWater, 1);
+}
+
+Path ScoutVision::secondClosestGold(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, scoutOffsets(), hasGold, 1);
+}
+
+Path ScoutVision::secondClosestTrader(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, scoutOffsets(), hasTrader, 1);
+}
+
+Path FocusedVision::closestFood(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, focusedOffsets(), hasFood, 0);
+}
+
+Path FocusedVision::closestWater(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, focusedOffsets(), hasWater, 0);
+}
+
+Path FocusedVision::closestGold(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, focusedOffsets(), hasGold, 0);
+}
+
+Path FocusedVision::closestTrader(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, focusedOffsets(), hasTrader, 0);
+}
+
+Path FocusedVision::easiestPath(const Map& map, const Position& origin) const {
+    return chooseEasiest(map, origin, focusedOffsets());
+}
+
+Path FocusedVision::secondClosestFood(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, focusedOffsets(), hasFood, 1);
+}
+
+Path FocusedVision::secondClosestWater(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, focusedOffsets(), hasWater, 1);
+}
+
+Path FocusedVision::secondClosestGold(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, focusedOffsets(), hasGold, 1);
+}
+
+Path FocusedVision::secondClosestTrader(const Map& map, const Position& origin) const {
+    return chooseClosest(map, origin, focusedOffsets(), hasTrader, 1);
 }
 
 } // namespace wss

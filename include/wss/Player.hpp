@@ -1,6 +1,7 @@
 #pragma once
 
 #include <algorithm>
+#include <cmath>
 #include <memory>
 #include <sstream>
 #include <string>
@@ -73,12 +74,15 @@ public:
     }
 
     bool spend(const Cost& cost) {
-        if (currentStrength_ < cost.movement || currentWater_ < cost.water || currentFood_ < cost.food) {
+        int effMovement = static_cast<int>(std::ceil(cost.movement * efficiencyMultiplier_));
+        int effWater = static_cast<int>(std::ceil(cost.water * efficiencyMultiplier_));
+        int effFood = static_cast<int>(std::ceil(cost.food * efficiencyMultiplier_));
+        if (currentStrength_ < effMovement || currentWater_ < effWater || currentFood_ < effFood) {
             return false;
         }
-        currentStrength_ -= cost.movement;
-        currentWater_ -= cost.water;
-        currentFood_ -= cost.food;
+        currentStrength_ -= effMovement;
+        currentWater_ -= effWater;
+        currentFood_ -= effFood;
         return true;
     }
 
@@ -91,8 +95,8 @@ public:
     }
 
     bool restInTerrain(const Cost& terrainCost) {
-        const int halfWater = (terrainCost.water + 1) / 2;
-        const int halfFood = (terrainCost.food + 1) / 2;
+        int halfWater = static_cast<int>(std::ceil((terrainCost.water * 0.5) * efficiencyMultiplier_));
+        int halfFood = static_cast<int>(std::ceil((terrainCost.food * 0.5) * efficiencyMultiplier_));
         if (currentWater_ < halfWater || currentFood_ < halfFood) {
             return false;
         }
@@ -100,6 +104,58 @@ public:
         currentFood_ -= halfFood;
         recoverAtRest();
         return true;
+    }
+
+    void applyEfficiency(double multiplier, int turns) {
+        if (multiplier <= 0.0) return;
+        efficiencyMultiplier_ = multiplier;
+        efficiencyTurns_ = turns;
+    }
+
+    void tickTurn() {
+        if (efficiencyTurns_ > 0) {
+            --efficiencyTurns_;
+            if (efficiencyTurns_ <= 0) {
+                efficiencyMultiplier_ = 1.0;
+                efficiencyTurns_ = 0;
+            }
+        }
+    }
+
+    void multiplyMaxStrength(int factor) {
+        if (factor <= 0) return;
+        maxStrength_ *= factor;
+        currentStrength_ = std::min(currentStrength_ * factor, maxStrength_);
+    }
+
+    void multiplyMaxWater(int factor) {
+        if (factor <= 0) return;
+        maxWater_ *= factor;
+        currentWater_ = std::min(currentWater_ * factor, maxWater_);
+    }
+
+    void multiplyMaxFood(int factor) {
+        if (factor <= 0) return;
+        maxFood_ *= factor;
+        currentFood_ = std::min(currentFood_ * factor, maxFood_);
+    }
+
+    void increaseMaxStrength(int amount) {
+        if (amount <= 0) return;
+        maxStrength_ += amount;
+        currentStrength_ = std::min(currentStrength_ + amount, maxStrength_);
+    }
+
+    void increaseMaxWater(int amount) {
+        if (amount <= 0) return;
+        maxWater_ += amount;
+        currentWater_ = std::min(currentWater_ + amount, maxWater_);
+    }
+
+    void increaseMaxFood(int amount) {
+        if (amount <= 0) return;
+        maxFood_ += amount;
+        currentFood_ = std::min(currentFood_ + amount, maxFood_);
     }
 
     bool spendGold(int amount) {
@@ -158,6 +214,8 @@ private:
     Position position_;
     std::shared_ptr<Vision> vision_;
     std::shared_ptr<Brain> brain_;
+    double efficiencyMultiplier_ = 1.0;
+    int efficiencyTurns_ = 0;
 };
 
 } // namespace wss

@@ -45,4 +45,13 @@ public:
     bool makeOffer(Player& player) override;
 };
 
+class SurvivalTrader final : public Trader {
+public:
+    std::string name() const override {
+        return "Survival Trader";
+    }
+
+    bool makeOffer(Player& player) override;
+};
+
 } // namespace wss
