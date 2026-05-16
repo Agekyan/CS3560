@@ -1,0 +1,753 @@
+Wilderness Survival System (WSS)
+Map width: Map height: Choose difficulty: 1=Easy, 2=Normal, 3=Hard: Choose vision: 1=Cautious, 2=Wide, 3=Scout, 4=Focused: Choose brain: 1=Cautious, 2=Greedy, 3=Opportunist: 
+Starting run with Scout Vision and Opportunist Brain
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+TSTSPTFFMP
+MSMDSDFDTT
+XDMMPDMSPS
+D@STSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 1 moved to (row=6, col=1) terrain=Plains
+  Wilderness event: found a stream and rested briefly (+1 water, +1 food)
+  Player(strength=15/16, water=14/14, food=14/14, gold=0)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+TSTSPTFFMP
+MSMDSDFDTT
+@DMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 2 moved to (row=5, col=0) terrain=Plains
+  Collected: Gold Bonus
+  Weather: clear skies, costs drop for 3 turns
+  Wilderness event: foraging paid off with berries (+4 food)
+  Player(strength=14/16, water=13/14, food=14/14, gold=2)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+TSTSPTFFMP
+M@MDSDFDTT
+XDMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 3 moved to (row=4, col=1) terrain=Swamp
+  Collected: Food Bonus
+  Trader (Calm Trader) trade resolved [food 14->14, water 11->14, gold 2->1]
+  Wilderness event: a rain shower topped off water (+2)
+  Player(strength=12/16, water=14/14, food=14/14, gold=1)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+TSTSPTFFMP
+MXMDSDFDTT
+X@MMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 4 moved to (row=5, col=1) terrain=Desert
+  Wilderness event: found an abandoned camp and recovered supplies (+4 food, +3 water, +3 gold)
+  Player(strength=10/16, water=14/14, food=14/14, gold=4)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+TSTSPTFFMP
+M@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 5 moved to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 11->11, water 12->14, gold 4->3]
+  Wilderness event: foraging paid off with berries (+3 food)
+  Player(strength=8/16, water=14/14, food=14/14, gold=3)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+@STSPTFFMP
+MXMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 6 moved to (row=3, col=0) terrain=Tundra
+  Trader (Survival Trader) trade resolved [food 13->14, water 12->13, gold 3->2]
+  Wilderness event: foraging paid off with berries (+3 food)
+  Player(strength=6/16, water=13/14, food=14/14, gold=2)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+M@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 7 moved to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 11->14, water 11->11, gold 2->1]
+  Wilderness event: found lightweight gear: movement and resource costs reduced for 6 turns
+  Player(strength=4/16, water=11/14, food=14/14, gold=1)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+MXMDSDFDTT
+X@MMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 8 moved to (row=5, col=1) terrain=Desert
+  Wilderness event: found an abandoned camp and recovered supplies (+4 food, +5 water, +2 gold)
+  Player(strength=2/16, water=14/14, food=14/14, gold=3)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+M@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 9 moved to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 12->12, water 12->14, gold 3->2]
+  Wilderness event: a rain shower topped off water (+3)
+  Player(strength=0/16, water=14/14, food=12/14, gold=2)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+M@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 10 rested to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 11->14, water 13->13, gold 2->1]
+  Wilderness event: found an abandoned camp and recovered supplies (+5 food, +2 water, +1 gold)
+  Player(strength=2/16, water=14/14, food=14/14, gold=2)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+@STSPTFFMP
+MXMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 11 moved to (row=3, col=0) terrain=Tundra
+  Trader (Survival Trader) trade resolved [food 13->14, water 12->13, gold 2->1]
+  Weather: clear skies, costs drop for 3 turns
+  Wilderness event: lost a few supplies crossing rough ground
+  Player(strength=0/16, water=13/14, food=13/14, gold=1)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+@STSPTFFMP
+MXMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 12 rested to (row=3, col=0) terrain=Tundra
+  Trader (Survival Trader) declined trade
+  Wilderness event: found lightweight gear: movement and resource costs reduced for 6 turns
+  Player(strength=2/16, water=12/14, food=12/14, gold=1)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+@XMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 13 moved to (row=4, col=0) terrain=Mountain
+  Weather: harsh winds, costs spike for 2 turns
+  Wilderness event: found an abandoned camp and recovered supplies (+5 food, +5 water, +1 gold)
+  Player(strength=0/16, water=14/14, food=14/14, gold=2)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+@XMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 14 rested to (row=4, col=0) terrain=Mountain
+  Wilderness event: found lightweight gear: movement and resource costs reduced for 6 turns
+  Player(strength=2/16, water=12/14, food=12/14, gold=2)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+X@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 15 moved to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 10->10, water 10->13, gold 2->1]
+  Wilderness event: dug up a small gold cache (+4 gold)
+  Player(strength=0/16, water=13/14, food=10/14, gold=5)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+X@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 16 rested to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 9->12, water 12->12, gold 5->4]
+  Wilderness event: foraging paid off with berries (+3 food)
+  Player(strength=2/16, water=12/14, food=14/14, gold=4)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+@STSPTFFMP
+XXMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 17 moved to (row=3, col=0) terrain=Tundra
+  Trader (Survival Trader) trade resolved [food 13->14, water 10->11, gold 4->3]
+  Wilderness event: found an inspiring shrine: max strength increased by 6 and recovered small supplies
+  Player(strength=6/22, water=12/14, food=14/14, gold=3)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+X@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 18 moved to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 12->12, water 10->13, gold 3->2]
+  Wilderness event: found lightweight gear: movement and resource costs reduced for 6 turns
+  Player(strength=4/22, water=13/14, food=12/14, gold=2)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+@STSPTFFMP
+XXMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 19 moved to (row=3, col=0) terrain=Tundra
+  Trader (Survival Trader) trade resolved [food 11->12, water 11->12, gold 2->1]
+  Wilderness event: found lightweight gear: movement and resource costs reduced for 6 turns
+  Player(strength=2/22, water=12/14, food=12/14, gold=1)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+@XMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 20 moved to (row=4, col=0) terrain=Mountain
+  Weather: clear skies, costs drop for 3 turns
+  Wilderness event: a rain shower topped off water (+4)
+  Player(strength=0/22, water=14/14, food=10/14, gold=1)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+@XMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 21 rested to (row=4, col=0) terrain=Mountain
+  Wilderness event: a rain shower topped off water (+2)
+  Player(strength=2/22, water=14/14, food=9/14, gold=1)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+XXMDSDFDTT
+@XMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 22 moved to (row=5, col=0) terrain=Plains
+  Weather: harsh winds, costs spike for 2 turns
+  Wilderness event: foraging paid off with berries (+5 food)
+  Player(strength=1/22, water=13/14, food=13/14, gold=1)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+XXMDSDFDTT
+@XMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 23 rested to (row=5, col=0) terrain=Plains
+  Wilderness event: dug up a small gold cache (+2 gold)
+  Player(strength=3/22, water=12/14, food=12/14, gold=3)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+X@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 24 moved to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 9->9, water 10->13, gold 3->2]
+  Wilderness event: found an abandoned camp and recovered supplies (+5 food, +2 water, +3 gold)
+  Player(strength=1/22, water=14/14, food=14/14, gold=5)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+X@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 25 rested to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 12->14, water 13->13, gold 5->4]
+  Wilderness event: lost a few supplies crossing rough ground
+  Player(strength=3/22, water=13/14, food=13/14, gold=4)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+@STSPTFFMP
+XXMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 26 moved to (row=3, col=0) terrain=Tundra
+  Trader (Survival Trader) trade resolved [food 12->13, water 11->12, gold 4->3]
+  Wilderness event: dug up a small gold cache (+1 gold)
+  Player(strength=1/22, water=12/14, food=13/14, gold=4)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+@STSPTFFMP
+XXMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 27 rested to (row=3, col=0) terrain=Tundra
+  Trader (Survival Trader) trade resolved [food 12->13, water 11->12, gold 4->3]
+  Wilderness event: foraging paid off with berries (+5 food)
+  Player(strength=3/22, water=12/14, food=14/14, gold=3)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+X@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 28 moved to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 11->11, water 10->10, gold 3->4]
+  Wilderness event: found a stream and rested briefly (+1 water, +1 food)
+  Player(strength=1/22, water=11/14, food=12/14, gold=4)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+X@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 29 rested to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 10->13, water 10->10, gold 4->3]
+  Wilderness event: foraging paid off with berries (+5 food)
+  Player(strength=3/22, water=10/14, food=14/14, gold=3)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+@STSPTFFMP
+XXMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 30 moved to (row=3, col=0) terrain=Tundra
+  Trader (Survival Trader) trade resolved [food 13->14, water 8->9, gold 3->2]
+  Wilderness event: a rain shower topped off water (+3)
+  Player(strength=1/22, water=12/14, food=14/14, gold=2)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+@STSPTFFMP
+XXMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 31 rested to (row=3, col=0) terrain=Tundra
+  Trader (Survival Trader) trade resolved [food 13->14, water 11->12, gold 2->1]
+  Wilderness event: found an abandoned camp and recovered supplies (+5 food, +4 water, +3 gold)
+  Player(strength=3/22, water=14/14, food=14/14, gold=4)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+X@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 32 moved to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 11->11, water 12->14, gold 4->3]
+  Weather: clear skies, costs drop for 3 turns
+  Wilderness event: a rain shower topped off water (+5)
+  Player(strength=1/22, water=14/14, food=11/14, gold=3)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+X@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 33 rested to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 9->12, water 13->13, gold 3->2]
+  Wilderness event: foraging paid off with berries (+5 food)
+  Player(strength=3/22, water=13/14, food=14/14, gold=2)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+@STSPTFFMP
+XXMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 34 moved to (row=3, col=0) terrain=Tundra
+  Trader (Survival Trader) trade resolved [food 13->14, water 11->12, gold 2->1]
+  Weather: harsh winds, costs spike for 2 turns
+  Wilderness event: foraging paid off with berries (+5 food)
+  Player(strength=1/22, water=12/14, food=14/14, gold=1)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+@STSPTFFMP
+XXMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 35 rested to (row=3, col=0) terrain=Tundra
+  Trader (Survival Trader) declined trade
+  Wilderness event: found an abandoned camp and recovered supplies (+2 food, +3 water, +2 gold)
+  Player(strength=3/22, water=13/14, food=14/14, gold=3)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+X@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 36 moved to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 11->14, water 11->11, gold 3->2]
+  Wilderness event: dug up a small gold cache (+3 gold)
+  Player(strength=1/22, water=11/14, food=14/14, gold=5)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+X@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 37 rested to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 12->14, water 10->10, gold 5->4]
+  Weather: harsh winds, costs spike for 2 turns
+  Wilderness event: lost a few supplies crossing rough ground
+  Player(strength=3/22, water=10/14, food=13/14, gold=4)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+@STSPTFFMP
+XXMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 38 moved to (row=3, col=0) terrain=Tundra
+  Trader (Survival Trader) trade resolved [food 11->12, water 7->8, gold 4->3]
+  Wilderness event: foraging paid off with berries (+3 food)
+  Player(strength=0/22, water=8/14, food=14/14, gold=3)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+@STSPTFFMP
+XXMDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 39 rested to (row=3, col=0) terrain=Tundra
+  Trader (Survival Trader) trade resolved [food 13->14, water 7->8, gold 3->2]
+  Wilderness event: foraging paid off with berries (+5 food)
+  Player(strength=2/22, water=8/14, food=14/14, gold=2)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+X@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 40 moved to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 11->11, water 6->9, gold 2->1]
+  Wilderness event: lost a few supplies crossing rough ground
+  Player(strength=0/22, water=9/14, food=10/14, gold=1)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+X@MDSDFDTT
+XXMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 41 rested to (row=4, col=1) terrain=Swamp
+  Trader (Calm Trader) trade resolved [food 8->8, water 8->11, gold 1->0]
+  Wilderness event: found lightweight gear: movement and resource costs reduced for 6 turns
+  Player(strength=2/22, water=11/14, food=8/14, gold=0)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+XXMDSDFDTT
+X@MMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 42 moved to (row=5, col=1) terrain=Desert
+  Weather: harsh winds, costs spike for 2 turns
+  Wilderness event: found lightweight gear: movement and resource costs reduced for 6 turns
+  Player(strength=0/22, water=9/14, food=6/14, gold=0)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+XXMDSDFDTT
+X@MMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 43 rested to (row=5, col=1) terrain=Desert
+  Wilderness event: a rain shower topped off water (+5)
+  Player(strength=2/22, water=13/14, food=5/14, gold=0)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+XXMDSDFDTT
+XXMMPDMSPS
+D@STSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 44 moved to (row=6, col=1) terrain=Plains
+  Wilderness event: found lightweight gear: movement and resource costs reduced for 6 turns
+  Player(strength=1/22, water=12/14, food=4/14, gold=0)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+XXMDSDFDTT
+@XMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 45 moved to (row=5, col=0) terrain=Plains
+  Wilderness event: a rain shower topped off water (+3)
+  Player(strength=0/22, water=14/14, food=3/14, gold=0)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+XXMDSDFDTT
+@XMMPDMSPS
+DXSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 46 rested to (row=5, col=0) terrain=Plains
+  Weather: harsh winds, costs spike for 2 turns
+  Wilderness event: found lightweight gear: movement and resource costs reduced for 6 turns
+  Player(strength=2/22, water=13/14, food=2/14, gold=0)
+[2J[HFDDTMSSDSM
+MTSDDFPFDF
+TDPMSMTMDS
+XSTSPTFFMP
+XXMDSDFDTT
+XXMMPDMSPS
+@XSTSMDMDS
+MMFFSDCTFF
+SDSDDPTSTM
+FMPPSCSDPT
+Legend: @=player, X=trail, P=Plains, F=Forest, D=Desert, S=Swamp, M=Mountain, T=Tundra, C=Canyon
+
+Turn 47 moved to (row=6, col=0) terrain=Desert
+  Wilderness event: lost a few supplies crossing rough ground
+  Player(strength=0/22, water=10/14, food=0/14, gold=0)
+
+Failure: player ran out of water or food.
