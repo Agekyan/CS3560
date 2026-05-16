@@ -13,7 +13,7 @@
 - Not yet finished: a polished GUI front-end and advanced visuals; automated test coverage for all subsystems; and richer procedural generation parameters for terrain and items.
 - Notes on display: a curses-style or C++ GUI approach was experimented with; the professor noted (and we observed) that the simple terminal UI can behave like ASCII overprinting — it redraws characters in-place instead of emitting new lines, so some terminals show the display as characters overwritten in-place rather than as a scrolling log. This is expected with terminal cursor control sequences (we use clear + cursor-reset for the tiny UI). An alternative input-driven mode (step-by-step input-based gameplay) is available as an option for manual testing.
 
-## 3. How we applied Object-Oriented Design (concrete examples)
+## 3. How we applied Object-Oriented Design
 
 - We used UML and design diagrams (see [docs/HW3_Design.md](docs/HW3_Design.md)) to plan class responsibilities and message flows — for example the `Player` responsibilities, `Map/Cell` composition, and the abstract `Vision`/`Brain`/`Trader` interfaces were modeled in sequence/activity diagrams.
 - We applied the Strategy pattern by making `Brain` and `Vision` abstract interfaces and providing concrete strategies (`GreedyBrain`, `CautiousBrain`, `OpportunistBrain`, `WideVision`, `FocusedVision`, etc.) so behaviour can be swapped at runtime; see `include/wss/Brain.hpp` and `include/wss/Vision.hpp`.
